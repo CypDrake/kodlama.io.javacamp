@@ -25,7 +25,24 @@ public class Main {
 			}
 			
 				 
-			 
+		courseManager tabs1 = new courseManager("Kurslarım");
+		courseManager tabs2 = new courseManager("Tüm Kurslar");
+		courseManager tabs3 = new courseManager("Kampa Hazırlık");
+		
+		courseManager [] tabs = {tabs1,tabs2,tabs3};
+		
+		for	(courseManager tab: tabs) {
+			
+			
+			System.out.println(tab.name);
+			
+			
+			
+		}
+		
+		
+		
+		
 			 
 		 
 	
